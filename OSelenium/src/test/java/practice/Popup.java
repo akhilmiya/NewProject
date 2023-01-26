@@ -14,7 +14,7 @@ public class Popup {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://www.foundit.in/");
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 		driver.findElement(By.className("heroSection-buttonContainer_secondaryBtn__text")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("file-upload")).click();
